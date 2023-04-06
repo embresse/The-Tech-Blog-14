@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* main stylying for dashboard and main */
+/* Body */
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  margin-right: 20px;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: #f5f5f5;
+}
+
+/* Hero */
+.hero {
+  background-image: url('./images/PP5-Twitter.4a573992.png');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.app-title {
+  margin: 0;
+  padding: 20px;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+.app-title a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main */
+.main {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+/* Styles for new-post page */
+.post-card {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.post-card .card-header {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.post-card .card-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.post-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-card .form-label {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.post-card .form-input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.post-card .btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.post-card .btn:hover {
+  background-color: #555;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.each-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+}
+
+.each-post:hover {
+  background-color: #ddd;
+}
+
+.each-post span:first-child {
+  font-weight: bold;
+  flex: 1;
+}
+
+.each-post span:last-child {
+  margin-left: 10px;
+  color: #666;
+  font-size: 0.8rem;
+}
