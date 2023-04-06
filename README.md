@@ -2,21 +2,20 @@
 
 ## DESCRIPTION
 
-A blog for cryptid lovers AND BELIEVERS. Big Foot, Mothman, Nessie, Jersey Devil, Gnomes of Appalachia? ALIENS??!! That’s just the tip of the unicorn horn! This is the place for those to write about their thoughts, ideas, and sightings.
+A blog for people in the tech field to be able to write blog posts and opinions and view other users posts. 
 
 ## User Story
 
 ```md
-As a cryptid lover
-I WANT to be able to view user posts and write posts about cryptids on a blog site
-SO THAT I can learn more and share my passion for cryptozoology.
+AS A developer who writes about tech
+I WANT a CMS-style blog site
+SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ```
 
 ## Installation
 
 ```md
 npm i to install packages
-npm run seed
 ```
 
 ## Technologies
@@ -27,25 +26,19 @@ Handlebars
 MySQL
 Sequelize
 bCrypt
-CSS Peek (new tech)
 ```
 
 ## Usage
 ```md
 
-https://obscure-basin-44545.herokuapp.com/
-https://github.com/embresse/Blog-Ness-Monster-Project-02
+https://github.com/embresse/The-Tech-Blog-14
 
 
 
 ```
 
-![screenshot.](./public/images/screenshot.png)
+![screenshot.](./public/images/Screen%20Shot%202023-04-06%20at%202.56.22%20PM.png)
 
-## Credits
-```md
-Josh Daniel, Erin Bresse, Ronald Martinez
-```
 
 
 
